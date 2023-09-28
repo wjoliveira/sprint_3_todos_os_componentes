@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Frontend MVP</title>
+</head>
+<body>
+    <!--
+    <nav class="navbar bg-body-tertiary">
+    -->
+    <nav class="navbar bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <i class="bi bi-globe-americas"></i>
+                Frontend MVP
+            </a>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Cadastro de Rotas de Backbone</h1>
+        
+        <div class="row justify-content-md-center">
+            <div class="col">
+                <form action="http://127.0.0.1:5000/rota_backbone" method="post">
+                    <div class="mb-3">
+                        <label for="inputNomeRotaBackbone" class="form-label">
+                            Nome Rota de Backbone
+                        </label>
+                        <input type="text" class="form-control" name="nome" id="inputNomeRotaBackbone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputDescricaoRotaBackbone" class="form-label">
+                            Descrição da Rota de Backbone
+                        </label>
+                        <input type="text" class="form-control" name="descricao" id="inputDescricaoRotaBackbone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="UfPontaA" class="form-label">
+                            UF da Ponta A
+                        </label>
+                        <input list="listaDeUfs" class="form-control" id="UfPontaA" name="uf_ponta_a" placeholder="Digite para pesquisar">
+                        <datalist id="listaDeUfs"></datalist>
+                    </div>
+                    <div class="mb-3">
+                        <label for="CidadePontaA" class="form-label">
+                            Cidade da Ponta A
+                        </label>
+                        <input list="listaDeCidades" class="form-control" id="CidadePontaA" name="cidade_ponta_a" placeholder="Digite para pesquisar">
+                        <datalist id="listaDeCidades"></datalist>
+                    </div>
+                    <div class="mb-3">
+                        <label for="UfPontaB" class="form-label">
+                            UF da Ponta B
+                        </label>
+                        <input list="listaDeUfsB" class="form-control" id="UfPontaB" name="uf_ponta_b" placeholder="Digite para pesquisar">
+                        <datalist id="listaDeUfsB"></datalist>
+                    </div>
+                    <div class="mb-3">
+                        <label for="CidadePontaB" class="form-label">
+                            Cidade da Ponta B
+                        </label>
+                        <input list="listaDeCidadesB" class="form-control" id="CidadePontaB" name="cidade_ponta_b" placeholder="Digite para pesquisar">
+                        <datalist id="listaDeCidadesB"></datalist>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="reset" class="btn btn-danger">Reset</button>
+                </form>
+            </div>
+            <div class="col">
+                <div id="map" style="width: 600px; height: 400px;">
+                </div>
+                <ul id="data-list"></ul>
+                <!--
+                <table id="data-table" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Descrição</th>
+                            <th>UF A</th>
+                            <th>Cidade A</th>
+                            <th>UF B</th>
+                            <th>Cidade B</th>
+                            <th>Edit</th>
+                            <th>Del</th>
+                        </tr>
+                    </thead>
+                    <tbody id="data-body"></tbody>
+                </table>
+                -->
+            </div>
+        </div>
+    
+    </div>
+    <!--
+    <script>
+        var mymap = L.map('map').setView([-15.5989, -56.0949], 3.5);
+        var rioDeJaneiro = L.latLng(-22.9068, -43.1729);
+        //var pontoRioDeJaneiro = L.marker([rioDeJaneiro], {color: 'green'}).addTo(mymap)
+        //var pontoRioDeJaneiro = L.marker(['-22.9068', '-43.1729']).addTo(mymap)
+        var saoPaulo = L.latLng(-23.5505, -46.6333);
+        var line = L.polyline([rioDeJaneiro, saoPaulo], {color: 'red', draggable: true, editable: true}).addTo(mymap);
+
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(mymap);
+    </script>
+    -->
+    <script src="scripts.js"></script>
+</body>
+</html>

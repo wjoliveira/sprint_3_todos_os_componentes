@@ -1,0 +1,32 @@
+version: '3'
+services:
+  backend_mvp:
+    build: 
+      context: ./backend_mvp/
+    container_name: backend_mvp
+    ports:
+      - 5000:5000
+    volumes:
+      - ./backend_mvp/:/home/python/app
+    tty: true
+
+  frontend_mvp:
+    build:
+      context: ./frontend_mvp/
+    container_name: frontend_mvp
+    ports:
+      - 8080:80
+    volumes:
+      - ./frontend_mvp/:/usr/share/nginx/html
+    tty: true
+
+  frontend_node:
+    build:
+      context: ./frontend_node/
+    container_name: frontend_node
+    ports:
+      - 3000:3000
+    volumes:
+      - ./frontend_node/:/home/node/frontend_node
+    tty: true
+

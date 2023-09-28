@@ -1,0 +1,66 @@
+[2023-09-27 19:04:15,351] INFO  * Restarting with stat - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:04:15,709] WARNING  * Debugger is active! - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:04:15,710] INFO  * Debugger PIN: 647-792-511 - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:04:21,124] INFO Coletando Rotas de Backbone - call_trace=/home/python/app/app.py L75  
+[2023-09-27 19:04:21,128] INFO 5 Rotas de Backbone encontradas - call_trace=/home/python/app/app.py L85  
+[2023-09-27 19:04:21,129] INFO 172.27.0.1 - - [27/Sep/2023 19:04:21] "GET /rotas_backbone HTTP/1.1" 200 - - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:07:04,405] INFO  * Detected change in '/home/python/app/schemas/rota_backbone.py', reloading - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:07:04,471] INFO  * Restarting with stat - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:07:04,811] WARNING  * Debugger is active! - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:07:04,812] INFO  * Debugger PIN: 647-792-511 - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:13:39,461] INFO  * Detected change in '/home/python/app/models/rota_backbone.py', reloading - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:13:39,541] INFO  * Restarting with stat - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:13:39,898] WARNING  * Debugger is active! - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:13:39,899] INFO  * Debugger PIN: 647-792-511 - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:15:06,265] INFO  * Detected change in '/home/python/app/models/rota_backbone.py', reloading - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:15:06,339] INFO  * Restarting with stat - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:15:06,678] WARNING  * Debugger is active! - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:15:06,678] INFO  * Debugger PIN: 647-792-511 - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:16:08,944] INFO  * Detected change in '/home/python/app/models/rota_backbone.py', reloading - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:16:09,014] INFO  * Restarting with stat - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:16:09,352] WARNING  * Debugger is active! - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:16:09,353] INFO  * Debugger PIN: 647-792-511 - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:20:11,370] INFO  * Detected change in '/home/python/app/schemas/rota_backbone.py', reloading - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:20:11,448] INFO  * Restarting with stat - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:20:11,791] WARNING  * Debugger is active! - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:20:11,791] INFO  * Debugger PIN: 647-792-511 - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:20:45,942] INFO  * Detected change in '/home/python/app/app.py', reloading - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:20:46,016] INFO  * Restarting with stat - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:20:46,378] WARNING  * Debugger is active! - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:20:46,379] INFO  * Debugger PIN: 647-792-511 - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:23:41,602] INFO Fazendo a busca por nome com o termo: SÃO PAULO - call_trace=/home/python/app/app.py L153 
+[2023-09-27 19:23:41,607] INFO 2 Rotas de Backbone encontradas - call_trace=/home/python/app/app.py L163 
+[2023-09-27 19:23:41,608] INFO 172.27.0.1 - - [27/Sep/2023 19:23:41] "GET /busca_rota_backbone?termo=SÃO%20PAULO HTTP/1.1" 200 - - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:29:42,190] INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.30.0.3:5000 - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:29:42,190] INFO [33mPress CTRL+C to quit[0m - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:29:42,191] INFO  * Restarting with stat - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:29:42,531] WARNING  * Debugger is active! - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:29:42,532] INFO  * Debugger PIN: 896-767-197 - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:30:19,277] INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.30.0.3:5001 - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:30:19,277] INFO [33mPress CTRL+C to quit[0m - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:30:19,278] INFO  * Restarting with stat - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:30:19,619] WARNING  * Debugger is active! - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:30:19,620] INFO  * Debugger PIN: 896-767-197 - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:30:20,695] INFO 172.30.0.1 - - [27/Sep/2023 19:30:20] "[32mGET / HTTP/1.1[0m" 302 - - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:30:22,710] INFO 172.30.0.1 - - [27/Sep/2023 19:30:22] "[32mGET /openapi HTTP/1.1[0m" 308 - - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:30:22,718] INFO 172.30.0.1 - - [27/Sep/2023 19:30:22] "GET /openapi/ HTTP/1.1" 200 - - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:30:22,738] INFO 172.30.0.1 - - [27/Sep/2023 19:30:22] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:30:22,739] INFO 172.30.0.1 - - [27/Sep/2023 19:30:22] "[36mGET /openapi/static/images/redoc.svg HTTP/1.1[0m" 304 - - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:30:23,713] INFO 172.30.0.1 - - [27/Sep/2023 19:30:23] "[36mGET /openapi/static/images/rapidoc.svg HTTP/1.1[0m" 304 - - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:30:24,721] INFO 172.30.0.1 - - [27/Sep/2023 19:30:24] "[36mGET /openapi/static/images/apidoc.svg HTTP/1.1[0m" 304 - - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:30:26,522] INFO 172.30.0.1 - - [27/Sep/2023 19:30:26] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:30:26,537] INFO 172.30.0.1 - - [27/Sep/2023 19:30:26] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:30:26,539] INFO 172.30.0.1 - - [27/Sep/2023 19:30:26] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:30:26,539] INFO 172.30.0.1 - - [27/Sep/2023 19:30:26] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:30:26,663] INFO 172.30.0.1 - - [27/Sep/2023 19:30:26] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:30:26,671] INFO 172.30.0.1 - - [27/Sep/2023 19:30:26] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:30:38,090] INFO Coletando Rotas de Backbone - call_trace=/home/python/app/app.py L75  
+[2023-09-27 19:30:38,093] INFO 172.30.0.1 - - [27/Sep/2023 19:30:38] "GET /rotas_backbone HTTP/1.1" 200 - - call_trace=/usr/local/lib/python3.9/site-packages/werkzeug/_internal.py L187 
+[2023-09-27 19:31:59,179] INFO Adicionando Rota de Backbone de nome: 'ROTA RIO DE JANEIRO - SÃO PAULO' - call_trace=/home/python/app/app.py L45  
+[2023-09-27 19:31:59,200] INFO Adicionando Rota de Backbone: RotaBackbone(id=1, nome='ROTA RIO DE JANEIRO - SÃO PAULO', uf_ponta_a='RJ', cidade_ponta_a='RIO DE JANEIRO', uf_ponta_b='SP', cidade_ponta_b='SÃO PAULO') - call_trace=/home/python/app/app.py L53  
