@@ -20,13 +20,3 @@ services:
       - ./frontend_mvp/:/usr/share/nginx/html
     tty: true
 
-  frontend_node:
-    build:
-      context: ./frontend_node/
-    container_name: frontend_node
-    ports:
-      - 3000:3000
-    volumes:
-      - ./frontend_node/:/home/node/frontend_node
-    tty: true
-
